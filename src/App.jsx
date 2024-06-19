@@ -24,7 +24,7 @@ function App() {
 	return (
 		<AuthProvider>
 			<main>
-				<Router>
+				<Router basename="/vite-deploy">
 					<NavBar />
 					<Routes>
 						<Route path="/" element={<Home />} />
