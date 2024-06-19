@@ -81,7 +81,7 @@ const NavBar = () => {
 								)}
 								
 								<li className="dropdown-item">
-									<Link className="dropdown-item" to={"/login"}>
+									<Link className="dropdown-item" to={"/admin"}>
 									Admin
 									</Link>
 								</li>
